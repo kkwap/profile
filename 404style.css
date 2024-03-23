@@ -1,0 +1,156 @@
+body { max-width:100%; margin: auto; background: #FFF; color: #2a2a2a; box-shadow: 0 -4px 4px; }
+input[type=text], input[type=password], input[type=file] { background: #FFF; color:#08e; padding: 4px; font-size: 16px; margin-top:4px; margin-bottom:4px; border: 1px solid #0af; border-left: 3px solid #08e; width: 90%; }
+select { background: #FFF; padding: 6px; font-size: 16px; margin-top:4px; margin-bottom:4px; border: 1px solid #aaf; border-left: 3px solid #aaa; width: 78%; }
+a, a:visited  { text-decoration: none; color: #08a;}
+p { padding: 4px; background: #aaffee;}
+b { color: black; }
+span { display:inline-block; }
+small { color: gray; }
+ul,li { list-style:none; padding:6px; margin:0px; }
+textarea { background: #FFF; width: 90%; border: 1px solid #fa0; margin: 2px; height:200px; }
+input[type=submit], button { padding: 6px; color: white; border: none; font-weight: bold; background: #66f; }
+#header { background: #08e; padding: 4px; color: #dfd; }
+#description { background: #efefef; padding: 6px; border:2px solid #eee; font-style: italic; }
+
+.logo { border:none; text-align:center; }
+.konten { }
+.menu1 { background: #0af; color:#fff; padding: 5px; margin: 0px; font-weight: bold; }
+.menu { background: #ffffff; padding: 4px; margin: 3px; color: black; border: 1px solid #aaf; border-bottom: 3px solid #aaf; font-weight:bold; }
+.list { background: #fafafa; padding: 6px; }
+.list1, ul li ul li { background: #fafafa; padding: 6px; border-bottom: 1px solid #dfdfdf; }
+.list1:last-child { border:none; }
+.listk { background: #fff; padding: 6px; border-bottom:2px solid #eee; }
+.error { background: #ffeeee; color: red; padding: 6px; }
+.nav_foot { background: #efffef; padding: 3px; }
+.button { padding:4px; border:1px solid #0af; border-left:none; border-right:3px solid #0af; }
+.page { }
+.page a, .paging a { padding:3px; margin:3px; border:1px solid #aaf; display:inline-block; }
+.page span, .paging span { padding:3px; margin:3px; background:#aaf; color:#fff; display:inline-block; }
+.bawah { background: #0af; padding: 4px; color: #444; }
+.bawah a { display: inline-block; width:48%; color: #fff; }
+.success, .sukses { padding:5px; color:#0d0; }
+.copyright { padding:6px; background:#08e; color: #eee; }
+
+#logo {
+    width: 100%;
+  
+    padding: 0;
+    background: #fff url(/img/logo-bg.png) repeat center top !important;
+        background-attachment: scroll;
+        background-size: auto auto;
+    background-attachment: fixed !important;
+    background-size: 100% !important;
+    border-bottom: 2px solid #009dff;
+}
+
+.logo-inner {
+    background: url(/img/overlay-bg.png) repeat center;
+    padding: 35px 0;
+    text-align: center;
+}
+.logo-inner img {
+    opacity: .800000011920928955078125;
+}
+
+#navmenu {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navmenu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#navmenu .icon {
+  display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#navmenu a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  #navmenu a:nth-child(n+5), .dropdown .dropbtn {
+    display: none;
+  }
+  #navmenu a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #navmenu.responsive {position: relative;}
+  #navmenu.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #navmenu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navmenu.responsive .dropdown {float: none;}
+  #navmenu.responsive .dropdown-content {position: relative;}
+  #navmenu.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
