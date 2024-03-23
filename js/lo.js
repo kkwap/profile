@@ -1,0 +1,1 @@
+document.write('<link rel="stylesheet" type="text/css" href="https://about.kkym.eu.org/gt.css"/>')
